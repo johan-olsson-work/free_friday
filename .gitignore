@@ -1,0 +1,19 @@
+# The following files are in the repo but changes are ignored:
+
+# update_acap_X_from_acap_Y/hello-world/build
+# update_acap_X_from_acap_Y/ACAP_updater/build
+
+# Following command were used:
+# git update-index --assume-unchanged update_acap_X_from_acap_Y/hello-world update_acap_X_from_acap_Y/ACAP_updater
+
+# To undo:
+# git update-index --no-assume-unchanged output.md history/history.md input session_history/sessions.pickle
+
+# In addtion (I think):
+# If you want to update the tracked version of these files in the future, you'll need to force add them:
+# git add -f output.md history/history.md input session_history/sessions.pickle
+
+
+/__pycache__/
+update_acap_X_from_acap_Y/hello-world/build
+update_acap_X_from_acap_Y/ACAP_updater/build
