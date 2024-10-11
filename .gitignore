@@ -1,18 +1,24 @@
-# The following files are in the repo but changes are ignored:
+# The following file are in the repo but changes are ignored:
+
+# update_acap_X_from_acap_Y/hello-world/app/manifest.json
+
+# Following command were used:
+# git update-index --assume-unchanged update_acap_X_from_acap_Y/hello-world/app/manifest.json
+
+# To undo:
+# git update-index --no-assume-unchanged update_acap_X_from_acap_Y/hello-world/app/manifest.json
+
+# In addtion (I think):
+# If you want to update the tracked version of this file in the future, you'll need to force add them:
+# git add -f update_acap_X_from_acap_Y/hello-world/app/manifest.json
+
+
+
 
 # update_acap_X_from_acap_Y/hello-world/build
 # update_acap_X_from_acap_Y/ACAP_updater/build
 
-# Following command were used:
-# git update-index --assume-unchanged update_acap_X_from_acap_Y/hello-world update_acap_X_from_acap_Y/ACAP_updater
-
-# To undo:
-# git update-index --no-assume-unchanged output.md history/history.md input session_history/sessions.pickle
-
-# In addtion (I think):
-# If you want to update the tracked version of these files in the future, you'll need to force add them:
-# git add -f output.md history/history.md input session_history/sessions.pickle
-
+# Need to add a .gitkeep file? Or initial one not needed? Check when cloneing and running from scratch
 
 /__pycache__/
 update_acap_X_from_acap_Y/hello-world/build
